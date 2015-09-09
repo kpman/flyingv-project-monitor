@@ -4,3 +4,4 @@ config.js
 *.log
 /temp
 dump.rdb
+output.csv
