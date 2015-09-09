@@ -4,7 +4,7 @@ var cheerio = require('cheerio');
 var request = Promise.promisify(require('request'));
 var moment = require('moment');
 
-var projectid = process.argv[2] || null;
+var projectid = '8250';
 
 if (!projectid) {
   process.exit(1);
