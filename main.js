@@ -19,7 +19,7 @@ if (!projectid) {
     var data = now + ',' + $percent + ',' + $money + '\n';
     fs.appendFile('output.csv', data, 'utf8', function(err) {
       console.log('appendfile done.');
-      process.exit(1);
+      process.exit(0);
     });
   });
 }
